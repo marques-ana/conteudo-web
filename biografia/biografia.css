@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #d1eedb;
 }
 
 h1{
@@ -9,6 +10,8 @@ h1{
     padding: 0;
     margin:0;
 }
+
+
 
 a{
     font-family: roboto;
@@ -21,6 +24,33 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:1px rgb(24, 22, 22) solid;
+    border:p1x rgb(24, 22, 22) solid;
     padding: 12px;
+    box-shadow:15px 30px 20px rgb(127, 143, 136);
+}
+
+.artigo-c-imagem{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.artigo-c-imagem article{
+    padding: 12px;
+    border:2px #07360b;
+    border-radius: 10pc;
+}
+
+.artigo-c-imagem article p{
+    font-size: 22px;
+}
+
+.hobbies{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies li{
+    font-size: 22px;
 }
