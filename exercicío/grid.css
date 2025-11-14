@@ -1,0 +1,92 @@
+.container-central{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa-login{
+    width: 300px;
+    height: 200px;
+    background-color:#f0f0f0;
+    border: 1px #cdcdcd solid;
+}
+
+.ul{
+    display: flex;
+    list-style: none
+}
+
+.li{
+    margin: right 15px;
+}
+
+.nav{
+     padding:10px;
+     background-color: #333;
+}
+
+.a{
+color:white;
+text-decoration: none;
+}
+
+.container-pagina{
+    display: flex;
+}
+
+.sidebar{
+    width: 250px;
+    background-color: #ececec;
+}
+
+.conteudo-principal{
+    flex-grow: 1;
+    background-color: #fff;
+     padding: 20px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    background-color: #444;
+    padding:20px;
+}
+
+.footer{
+    background-color: #444;
+    padding:20px;
+}
+
+.main{
+    flex-grow: 1;
+}
+
+.card{
+    width: 300px;
+    box-shadow: 0 4px 8px #ccc;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.h3{
+    padding: 15px;
+}
+
+.p{
+    padding: 15px;
+}
+
+.button{
+    padding: 15px;
+}
